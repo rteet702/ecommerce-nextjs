@@ -1,9 +1,14 @@
 import { NextPage } from "next";
+import ProductBanner from "../components/ProductBanner/ProductBanner";
 
 interface Props {}
 
 const Home: NextPage<Props> = () => {
-    return <div>Hello World!</div>;
+    return (
+        <div>
+            <ProductBanner />
+        </div>
+    );
 };
 
 export default Home;
